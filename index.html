@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <title>Comparador Nissan Juke</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Comparador Nissan Juke</h1>
+            <p>Compare as diferentes versões e características</p>
+        </div>
+
+        <div class="controls">
+            <div class="filter-section">
+                <label>Categoria:</label><br>
+                <select id="categoryFilter">
+                    <option value="all">Todas as Categorias</option>
+                    <option value="exterior">Exterior</option>
+                    <option value="interior">Interior</option>
+                    <option value="seguranca">Segurança</option>
+                    <option value="motorizacao">Motorização</option>
+                    <option value="conectividade">Conectividade</option>
+                </select>
+            </div>
+
+            <div class="filter-section">
+                <label>Versões para comparar:</label><br>
+                <select id="version1">
+                    <option value="ALL">Comparar Todos</option>
+                    <option value="ACENTA">ACENTA</option>
+                    <option value="N-CONNECTA">N-CONNECTA</option>
+                    <option value="TEKNA">TEKNA</option>
+                    <option value="N-DESIGN">N-DESIGN</option>
+                    <option value="N-SPORT">N-SPORT</option>
+                </select>
+                <select id="version2">
+                    <option value="ALL">Comparar Todos</option>
+                    <option value="ACENTA">ACENTA</option>
+                    <option value="N-CONNECTA">N-CONNECTA</option>
+                    <option value="TEKNA">TEKNA</option>
+                    <option value="N-DESIGN">N-DESIGN</option>
+                    <option value="N-SPORT">N-SPORT</option>
+                </select>
+            </div>
+
+            <div class="filter-section">
+                <label>Pesquisar característica:</label><br>
+                <input type="text" id="searchFeature" class="search-box" placeholder="Ex: câmera, LED, ar condicionado...">
+            </div>
+        </div>
+
+        <div id="tableContainer">
+            <!-- A tabela será inserida aqui via JavaScript -->
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
